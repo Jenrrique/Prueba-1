@@ -1,0 +1,10 @@
+.Encabezado{
+    border-color: blue;
+}
+
+#Nav1{
+    color: green;
+}
+.carousel-inner{
+    max-height: 40rem;
+}

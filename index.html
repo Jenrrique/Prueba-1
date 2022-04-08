@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./style/Style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header class="w-50 mx-auto text-center" id="Encabezado">
+        <p class="Encabezado">Informacion de contacto</p>
+    </header>
+
+    <!--Nav-->
+    <ul class="nav nav-pills" id="Nav1">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Lavaditos</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Servicios</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Reservas</a></li>
+            <li><a class="dropdown-item" href="#">Productos</a></li>
+            <li><a class="dropdown-item" href="#">Otas cosas</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Separated link</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Equipo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Contacto</a>
+        </li>
+      </ul>
+
+      <!--Slider de imagenes-->
+      <div id="carouselExampleControls" class="carousel slide container" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-slide="3000">
+            <img src="./Imagenes/Carrusel1.jfif" class="d-block w-100" alt="slide1">
+          </div>
+          <div class="carousel-item">
+            <img src="./Imagenes/Carrusel2.jfif" class="d-block w-100" alt="slide2">
+          </div>
+          <div class="carousel-item">
+            <img src="./Imagenes/Carrusel3.jfif" class="d-block w-100" alt="slide3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!--Intro-->
+      <section class="w-50 mx-auto text-center pt-5" id="intro">
+        <h1 class="p-3 fs-2 border-top border-3">Una empresa y un compromiso dedicado al
+          <span class="text-primary"> Autolvado</span>
+        </h1>
+        <p class="p-3 fs-4">
+          <span class="text-primary">Lavaditos</span>listos y rapiditos para hacer brillar tu auto
+        </p>
+      </section>
+</body>
+</html>
